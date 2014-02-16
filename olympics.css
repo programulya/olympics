@@ -1,0 +1,8 @@
+circle {
+    opacity: .8;
+}
+
+text.label {
+    font-size: 12px;
+    text-anchor: middle;
+}

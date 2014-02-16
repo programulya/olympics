@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Olympics Chart</title>
+    <link rel="stylesheet" href="olympics.css">
+</head>
+<body>
+    <div>
+        r:
+        <select onchange="window.r = this.value; redraw();">
+            <option>countries</option>
+            <option>events</option>
+            <option>sports</option>
+            <option>year</option>
+        </select>
+        x:
+        <select onchange="window.x = this.value; redraw();">
+            <option>countries</option>
+            <option>events</option>
+            <option>sports</option>
+            <option>year</option>
+        </select>
+        y:
+        <select onchange="window.y = this.value; redraw();">
+            <option>countries</option>
+            <option>events</option>
+            <option>sports</option>
+            <option>year</option>
+        </select>
+    </div>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="olympics.js"></script>
+</body>
